@@ -40,7 +40,7 @@ curl http://localhost:8001/email.php -d 'access_token=7c3b76064c1767b7c62423a6a9
 
 List of sent email
 ```bash
-http://localhost:8001/list.php
+curl http://localhost:8001/list.php -d 'access_token=7c3b76064c1767b7c62423a6a916ac3c10610741'
 ```
 
 Please check your destination email to ensure that the email has been sent.
