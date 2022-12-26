@@ -37,6 +37,11 @@ Send email
 curl http://localhost:8001/email.php -d 'access_token=7c3b76064c1767b7c62423a6a916ac3c10610741&email=obama@mail.com&title=Hello World&text=How are you ?'
 ```
 
+List of sent email
+```bash
+http://localhost:8001/list.php
+```
+
 Please check your destination email to ensure that the email has been sent.
 
 Queue redis will automatically run when container start.
