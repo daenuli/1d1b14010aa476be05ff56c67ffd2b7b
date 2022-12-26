@@ -12,11 +12,12 @@ Switch to the repository folder.
 cd levartech
 ```
 
-Create and start containers
+Create and start containers. When running the container, a database will be imported and the Redis Queue will run automatically.
 
 ```bash
 docker-compose up
 ```
+
 Install required packages
 
 ```bash
@@ -43,5 +44,3 @@ http://localhost:8001/list.php
 ```
 
 Please check your destination email to ensure that the email has been sent.
-
-Queue redis will automatically run when container start.
